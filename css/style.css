@@ -29,7 +29,7 @@ body {
   list-style: none;
 }
 
-.header-menu-item {
+.header-menu-item-link {
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
@@ -38,18 +38,17 @@ body {
   color: var(--main-color);
 }
 
-.header-menu-item-link {
-  color: var(--main-color);
-}
-
 .link {
   text-decoration: none;
+}
+
+.header-contact-information {
+  font-style: normal
 }
 
 .header-contact-mail,
 .header-contact-phone {
   font-family: inherit;
-  font-style: normal;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -136,6 +135,9 @@ body {
   width: 1440px;
   background: #F4F4FD;
 }
+.our-team-item-list {
+  background-color: #FFFFFF;
+}
 
 .header-our-team {
   font-family: inherit;
@@ -152,7 +154,7 @@ body {
   font-family: inherit;
   font-weight: 500;
   font-size: 20px;
-  line-height: 1.5;
+  line-height: 1.2;
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--main-color);
@@ -215,7 +217,7 @@ body {
   font-family: inherit;
   font-weight: 500;
   font-size: 20px;
-  line-height: 1.5;
+  line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--main-color);
 }
