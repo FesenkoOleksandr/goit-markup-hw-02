@@ -46,12 +46,8 @@ body {
   font-style: normal
 }
 
-.header-contact-mail,
-.header-contact-phone {
-  font-family: inherit;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
+.contact-info,
+.contact-info {
   color: #434455;
 }
 
